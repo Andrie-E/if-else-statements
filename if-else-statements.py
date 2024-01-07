@@ -17,6 +17,8 @@ elif third_number >= first_number and third_number >= second_number and third_nu
     largest_number= third_number
 elif fourth_number >= first_number and fourth_number >= second_number and fourth_number >= third_number and fourth_number >= fifth_number:
     largest_number= fourth_number
+else:
+    largest_number = fifth_number
 
 # Code that prints the largest number
 print("Base on the data that you have provided, the largest number is: ", largest_number)
